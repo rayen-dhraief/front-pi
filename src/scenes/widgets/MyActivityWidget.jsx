@@ -17,6 +17,7 @@ import {
     IconButton,
     useMediaQuery,
   } from "@mui/material";
+  import WebRTCVideoCall from "components/WebRTCVideoCall";
   import FlexBetween from "components/FlexBetween";
   import Dropzone from "react-dropzone";
   import WidgetWrapper from "components/WidgetWrapper";
@@ -58,6 +59,7 @@ import {
   
     return (
       <WidgetWrapper>
+      <WebRTCVideoCall/>
         <Box display="flex" alignItems="center">
       <Box marginLeft={2}>
         <Typography variant="h5" gutterBottom>
